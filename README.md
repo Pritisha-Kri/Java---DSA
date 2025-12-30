@@ -13,6 +13,3 @@ I am completing this challenge in **60 days** to strengthen my Java skills, mast
 - Build a professional GitHub portfolio
 
 ---
-
-## 📂 Folder Structure
-
