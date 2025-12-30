@@ -1,0 +1,92 @@
+
+FLOWCHARTS – BASIC PROBLEMS OF ASSIGNMENT 
+===========================
+
+1) CHECK LEAP YEAR
+------------------
+START
+  |
+Input Year (Y)
+  |
+Is Y % 400 == 0 ?
+  |----Yes----> Leap Year
+  |
+Is Y % 4 == 0 AND Y % 100 != 0 ?
+  |----Yes----> Leap Year
+  |
+Not a Leap Year
+  |
+END
+
+
+2) SUM OF TWO NUMBERS
+--------------------
+START
+  |
+Input A, B
+  |
+Sum = A + B
+  |
+Print Sum
+  |
+END
+
+
+3) MULTIPLICATION TABLE
+----------------------
+START
+  |
+Input Number N
+  |
+i = 1
+  |
+Is i <= 10 ?
+  |----No----> END
+  |
+Print N x i
+  |
+i = i + 1
+  |
+(Repeat Loop)
+
+
+4) HCF AND LCM
+--------------
+START
+  |
+Input A, B
+  |
+i = 1, HCF = 1
+  |
+Is i <= A AND i <= B ?
+  |----No----> Calculate LCM
+  |
+If A % i == 0 AND B % i == 0
+  |
+HCF = i
+  |
+i = i + 1
+  |
+(Repeat Loop)
+
+LCM = (A * B) / HCF
+Print HCF, LCM
+END
+
+
+5) SUM UNTIL USER ENTERS 'x'
+---------------------------
+START
+  |
+Sum = 0
+  |
+Input Value
+  |
+Is Value == 'x' ?
+  |----Yes----> Print Sum -> END
+  |
+Sum = Sum + Value
+  |
+Input Next Value
+  |
+(Repeat Loop)
